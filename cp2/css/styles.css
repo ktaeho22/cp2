@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+
+}
+
+
+/*menu and footer css start*/
+
+
+.menu{
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+
+.nav-item{
+  margin-left: 10%;
+}
+
+
+.navbar-brand{
+  font-size: 200% !important;
+  font-family: "Segoe Script";
+  color:white !important;
+}
+
+.nav-item{
+  font-family: "Tahoma";
+
+}
+
+
+
+.footer {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column-reverse;
+}
+
+.copyright {
+
+  font-family: "Garamond";
+}
+
+.github {
+  padding-bottom: 1%;
+  font-family: "Garamond";
+
+}
+
+/*menu and footer css end*/
+
+
+
+/*index css start*/
+.cc {
+  font-size:30%;
+}
+
+.pindex{
+  width:100%;
+  height: auto;
+}
+
+.index-contents{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 7%;
+  font-family: "Garamond";
+
+}
+
+
+
+.index-content2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*index css end*/
+
+/*bio css start*/
+.about-contents{
+  padding-left: 10%;
+  padding-right: 7%;
+  font-family: "Garamond";
+}
+
+.about-content1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.about-paragraph1 {
+  padding-top: 10%;
+}
+
+.a1-title {
+  font-family: "Garamond";
+  font-size: 200%;
+  padding-bottom: 5%;
+}
+
+.about-photo1-container {
+  padding-right: 5%;
+}
+
+.about-photo1-cc {
+  font-size: 30%;
+}
+/*about css end*/
+
+/*music css start*/
+.music-contents{
+  padding-left: 10%;
+  padding-right: 7%;
+  font-family: "Garamond";
+  display: flex;
+  flex-direction: column;
+}
+
+.music-content1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.music-paragraph1 {
+  padding-top: 10%;
+}
+
+.m1-title {
+  font-family: "Garamond";
+  font-size: 200%;
+  padding-bottom: 5%;
+}
+
+.music-photo1-container {
+  padding-right: 5%;
+}
+
+.music-photo1-cc {
+  font-size: 30%;
+}
+
+
+
+/*music css end*/
+
+
+
+
+/*review css start*/
+.review-contents {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right:10%;
+
+  font-family: "Garamond";
+}
+
+.review-content1{
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.review-title{
+
+  font-weight: bolder;
+  font-size: 300%;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+#searchInput{
+  font-size: 200%;
+}
+#searchSubmit {
+font-size: 200%;
+}
+
+
+.music-search {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+/*mobile interface*/
+@media only screen and (min-width: 0px) and (max-width: 960px) {
+  .index-content2{
+    flex-direction: column;
+  }
+  .about-content1{
+    flex-direction: column;
+  }
+  .index-photo1-container{
+    padding-bottom: 10%;
+    padding-top: 0%;
+
+  }
+  .i2-title{
+    font-size: 400%;
+    padding-bottom: 10%;
+  }
+  .i2-content{
+    font-size: 150%;
+    width:100%;
+  }
+  .index-photo1{
+    width: 100%;
+  }
+  .index-paragraph2 {
+      padding-top: 0%;
+  }
+
+  .about-photo1 {
+    width:100%;
+  }
+
+
+  .portfolio-photos{
+    width:100%;
+    height:auto;
+  }
+
+
+
+
+ .index-contents{
+    padding-right: 11%;
+  }
+
+  .m1-content{
+    font-size: 150%;
+    width:100%;
+  }
+
+  .music-content1{
+    flex-direction: column;
+  }
+  #searchInput{
+    font-size: 200%;
+  }
+  #searchSubmit {
+  font-size: 200%;
+  }
+
+
+}
+
+
+/*tablet to low resolution interface*/
+@media only screen and (min-width: 961px) and (max-width: 1820px) {
+
+
+
+
+
+  .portfolio-photos{
+    width:100%;
+    height:auto;
+  }
+
+
+  .index-content2{
+    flex-direction: column;
+  }
+
+  .index-photo1-container{
+    padding-bottom: 10%;
+    padding-top: 0%;
+
+  }
+
+
+  .a1-title{
+    font-size: 400%;
+    padding-bottom: 10%;
+  }
+  .a1-content{
+    font-size: 150%;
+    width:100%;
+  }
+
+  .m1-content{
+    font-size: 150%;
+    width:100%;
+  }
+
+
+  .index-photo1{
+    width: 100%;
+  }
+  .index-paragraph2 {
+      padding-top: 0%;
+  }
+
+  .about-photo1 {
+    width:100%;
+  }
+
+  .music-content1{
+    flex-direction: column;
+  }
+
+  #searchInput{
+    font-size: 200%;
+  }
+  #searchSubmit {
+  font-size: 200%;
+  }
+
+
+
+
+}
